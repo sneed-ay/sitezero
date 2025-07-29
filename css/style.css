@@ -189,3 +189,51 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 .footer .logo { font-size: 1.8rem; justify-content: center; color: var(--text-light); }
 .footer .logo .colored { color: var(--accent-color); }
 .footer p { margin: 5px 0; font-size: 0.9rem; opacity: 0.8; }
+
+
+/* --- お問い合わせフォーム下のLINEボタン --- */
+.or-divider-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.or-divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.or-divider-text {
+    padding: 0 15px;
+    color: #888;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.line-button-wrapper {
+    text-align: center;
+}
+
+.line-button {
+    display: block;
+    text-align: center;
+    background-color: #06C755; /* LINEのブランドカラー */
+    color: white;
+    width: 100%;
+    padding: 15px; /* submit-buttonと高さを合わせる */
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box; /* paddingを含めて幅100%にする */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.line-button:hover {
+    background-color: #05a546; /* 少し暗い緑色 */
+    transform: scale(1.05);
+}
