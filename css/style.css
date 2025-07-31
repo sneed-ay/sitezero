@@ -188,7 +188,32 @@ img { max-width: 100%; height: auto; vertical-align: middle; }
 .footer { background-color: var(--sub-color); color: var(--text-light); padding: 50px 20px; text-align: center; }
 .footer .logo { font-size: 1.8rem; justify-content: center; color: var(--text-light); }
 .footer .logo .colored { color: var(--accent-color); }
-.footer p { margin: 5px 0; font-size: 0.9rem; opacity: 0.8; }
+.footer p { margin: 10px 0; font-size: 0.9rem; opacity: 0.8; }
+
+/* 運営者情報 */
+.footer-info {
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    text-align: left;
+}
+.footer-info p {
+    margin: 8px 0;
+}
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-info a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+.footer .copyright {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
 
 
 /* --- お問い合わせフォーム下のLINEボタン --- */
